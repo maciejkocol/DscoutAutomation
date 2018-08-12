@@ -1,0 +1,47 @@
+{
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "https://dscoutapp.com",
+      "browser": "chrome",
+      "restart": false,
+      "smartWait": 10000,
+      "timeouts": {
+        "script": 10000,
+        "page load": 20000
+      },
+      "chromeOptions": {
+           "args": [ "--headless", "--disable-gpu", "--no-sandbox" ]
+      }
+    },
+    "REST": {
+      "endpoint": "https://dscoutapp.com",
+      "resetHeaders": true
+    },
+    "JSFailure": {
+      "require": "./jsfailure_helper.js"
+    },
+    "Custom": {
+      "require": "./custom_helper.js"
+    }
+  },
+  "include": {
+    "I": "./steps_file.js",
+    "signinPage": "./pages/signin.js",
+    "signupPage": "./pages/signup.js",
+    "signinSSOPage": "./pages/signinSSO.js",
+    "resetPasswordPage": "./pages/resetPassword.js",
+    "dashboardPage": "./pages/dashboard.js"
+  },
+  "mocha": {
+    "reporterOptions": {
+        "mochaFile": "output/result.xml"
+    }
+  },
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "name": "dscoutTest"
+}

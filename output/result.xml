@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.675000000000002" tests="16" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-05-16T10:50:32" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Sign In" timestamp="2018-05-16T10:50:32" tests="12" file="/Users/Maciek/Documents/development/dscoutTest/dscout_test.js" failures="0" time="7.182000000000001">
+    <testcase name="Sign In: verify elements on page" time="0.459" classname="verify elements on page">
+    </testcase>
+    <testcase name="Sign In: verify sso sign in link" time="0.224" classname="verify sso sign in link">
+    </testcase>
+    <testcase name="Sign In: verify forgot password link" time="0.228" classname="verify forgot password link">
+    </testcase>
+    <testcase name="Sign In: verify sign up link" time="1.6" classname="verify sign up link">
+    </testcase>
+    <testcase name="Sign In: verify successful sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="1.693" classname="verify successful sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In: verify empty email and password sign in" time="0.297" classname="verify empty email and password sign in">
+    </testcase>
+    <testcase name="Sign In: verify empty email sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.368" classname="verify empty email sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In: verify empty password sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.361" classname="verify empty password sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In: verify missing &apos;@&apos; email sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.421" classname="verify missing &apos;@&apos; email sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In: verify incomplete part following &apos;@&apos; email sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.378" classname="verify incomplete part following &apos;@&apos; email sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In: verify invalid credentials sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.62" classname="verify invalid credentials sign in | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In: verify locked account | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.533" classname="verify locked account | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+  </testsuite>
+  <testsuite name="Sign In - API" timestamp="2018-05-16T10:50:42" tests="4" file="/Users/Maciek/Documents/development/dscoutTest/dscout_test.js" failures="0" time="0.493">
+    <testcase name="Sign In - API: verify POST - successful sign in - 302 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.228" classname="verify POST - successful sign in - 302 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In - API: verify GET - SSO sign in - 200 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.093" classname="verify GET - SSO sign in - 200 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In - API: verify GET - Forgot Password - 200 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.086" classname="verify GET - Forgot Password - 200 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+    <testcase name="Sign In - API: verify GET - Sign up - 301 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}" time="0.086" classname="verify GET - Sign up - 301 | {&quot;email&quot;:&quot;automation@tester.com&quot;,&quot;password&quot;:&quot;dontbreakthebuild&quot;}">
+    </testcase>
+  </testsuite>
+</testsuites>
